@@ -5,7 +5,7 @@ import icon3 from "../../../assets/images/about-us/how-it-started/icon3.svg";
 
 export const HowItStarted = () => {
   return (
-    <div className="max-w-305 max-md:max-w-md mx-auto px-4 md:px-6 xl:px-10 py-10 xl:py-16">
+    <div className="max-w-358 max-md:max-w-md mx-auto px-4 md:px-6 xl:px-10 py-10 xl:py-16">
       <Typography
         variant={"h2"}
         className="text-left md:text-center xl:text-left"

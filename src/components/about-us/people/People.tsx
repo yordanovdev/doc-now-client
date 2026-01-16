@@ -17,7 +17,7 @@ export const People = () => {
   return (
     <div className="overflow-x-hidden">
       <div className="px-6 md:px-10">
-        <div className="max-w-305 max-md:max-w-md w-full relative overflow-x-hidden md:w-188 xl:w-full mx-auto pt-10">
+        <div className="max-w-358 max-md:max-w-md w-full relative overflow-x-hidden md:w-188 xl:w-full mx-auto pt-10">
           <div className="w-full md:w-120 space-y-2">
             <Typography variant={"h2"}>Хората зад DocNow</Typography>
             <Typography variant={"p"}>
@@ -31,7 +31,7 @@ export const People = () => {
         </div>
       </div>
       <div className="w-full mb-10 md:mb-16 mt-10 md:mx-0 md:px-10">
-        <div className="max-w-305 w-full md:w-188 md:mx-auto xl:w-full  max-md:max-w-md md:overflow-x-hidden group relative">
+        <div className="max-w-358 w-full md:w-188 md:mx-auto xl:w-full  max-md:max-w-md md:overflow-x-hidden group relative">
           <div className="flex gap-3 md:gap-6 animate-scroll-left group-hover:animation-pause">
             {/* First set of images */}
             {images.map((image, index) => (

@@ -4,7 +4,7 @@ import ourMissionImg from "../../../assets/images/about-us/out-mission/our-missi
 export const OurMission = () => {
   return (
     <div className="px-6 md:px-10">
-      <div className="max-w-305 max-md:max-w-md w-full relative overflow-x-hidden md:w-188 xl:w-full mx-auto py-10">
+      <div className="max-w-358 max-md:max-w-md w-full relative overflow-x-hidden md:w-188 xl:w-full mx-auto py-10">
         <svg
           width="800"
           height="538"

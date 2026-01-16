@@ -11,21 +11,21 @@ export const Specialists = () => {
             </svg>
 
 
-            <div className="max-w-305 max-md:max-w-md md:w-188 xl:w-full mx-auto ">
+            <div className="max-w-358 max-md:max-w-md md:w-188 xl:w-full mx-auto ">
                 <Typography variant={"h2"} className="text-center sm:text-left mb-10 md:mb-12 xl:hidden">
                     Нашите специалисти се грижат денонощно за вас и вашето здраве
                 </Typography>
 
-                <div className="flex flex-col md:flex-row xl:flex-row items-center justify-between gap-10 md:gap-12 lg:gap-16">
-                    <Typography variant={"h2"} className="hidden xl:block xl:max-w-100 shrink-0">
+                <div className="flex flex-col md:flex-row xl:flex-row items-center justify-between gap-10 md:gap-12 lg:gap-10">
+                    <Typography variant={"h2"} className="hidden xl:block xl:w-100 shrink-0">
                         Нашите специалисти се грижат денонощно за вас и вашето здраве
                     </Typography>
 
-                    <div className="shrink-0 max-md:w-full" data-aos="zoom-in" data-aos-duration="600" data-aos-once="true">
-                        <img src={doctorImage} alt="Doctor" className="w-full max-w-71.25 xl:max-w-full xl:w-117.5 max-md:max-w-full" />
+                    <div className="w-full" data-aos="zoom-in" data-aos-duration="600" data-aos-once="true">
+                        <img src={doctorImage} alt="Doctor" className="w-full max-w-71.25 xl:max-w-full max-md:max-w-full" />
                     </div>
 
-                    <div className="flex flex-col gap-8 items-start max-md:w-full">
+                    <div className="flex flex-col gap-8 items-start xl:w-100 shrink-0">
                         <div>
                             <span className="text-accent text-[48px] font-thin leading-[120%] font-transformaMix">85+</span>
                             <Typography variant={"h4"}>Сертифицирани специалисти</Typography>

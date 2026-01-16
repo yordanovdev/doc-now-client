@@ -16,7 +16,7 @@ import { Button } from "@/components/ui/button"
 
 export const Header = () => {
     return (
-        <header className="overflow-hidden max-w-305 max-md:max-w-md relative mx-auto px-4 md:px-6 xl:px-10 pt-0 pb-10 xl:pb-16 md:py-4 overflow-x-hidden">
+        <header className="overflow-hidden max-w-358 max-md:max-w-md relative mx-auto px-4 md:px-6 xl:px-10 pt-0 pb-10 xl:pb-16 md:py-4 overflow-x-hidden">
             <img src={bgElement} className="absolute max-md:hidden md:w-screen md:right-0 md:-top-25 md:rotate-0 md:scale-100 xl:w-auto xl:right-10 xl:rotate-20 xl:-top-55 -z-10 transform" />
             <div className="flex flex-col xl:flex-row relative w-full xl:justify-end">
                 <div className="md:hidden flex flex-col gap-4 items-center mb-8">

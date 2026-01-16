@@ -18,7 +18,7 @@ export const TrustAndSecurity = () => {
         />
       </svg>
 
-      <div className="max-w-305 max-md:max-w-md w-full relative overflow-x-hidden md:w-188 xl:w-full mx-auto mt-10">
+      <div className="max-w-358 max-md:max-w-md w-full relative overflow-x-hidden md:w-188 xl:w-full mx-auto mt-10">
         <Typography variant={"h2"} className="text-left md:text-center">
           Доверие и сигурност
         </Typography>

@@ -5,7 +5,7 @@ import headerAboutUsImage from "../../../assets/images/about-us/header-img.png";
 export const AboutUsHeader = () => {
   return (
     <div className="relative overflow-hidden">
-      <header className="max-w-305 md:w-188 xl:w-full max-md:max-w-md relative mx-auto px-4 md:px-6 xl:px-10 pb-10 pt-0 md:pt-4 xl:pt-8 xl:pb-16 flex items-center gap-16 flex-col xl:flex-row justify-between">
+      <header className="max-w-358 md:w-188 xl:w-full max-md:max-w-md relative mx-auto px-4 md:px-6 xl:px-10 pb-10 pt-0 md:pt-4 xl:pt-8 xl:pb-16 flex items-center gap-16 flex-col xl:flex-row justify-between">
         {/* Xl svg */}
         <svg
           width="954"
