@@ -89,9 +89,9 @@ export const Header = () => {
                 </div>
 
 
-                <div className="absolute max-xl:hidden left-0 bottom-0 flex items-center justify-center w-24 h-24">
+                <div className="absolute max-xl:hidden left-0 -bottom-4 flex items-center justify-center w-28 h-28">
 
-                    <div className="absolute inset-0 animate-[spin_10s_linear_infinite] w-24 h-24">
+                    <div className="absolute inset-0 animate-[spin_10s_linear_infinite] w-28 h-28">
                         <svg className=" overflow-visible" viewBox="0 0 200 200">
                             <defs>
                                 <path
