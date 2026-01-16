@@ -17,7 +17,7 @@ export const People = () => {
   return (
     <div className="overflow-x-hidden">
       <div className="max-md:px-6">
-        <div className="max-w-378 xl:px-10 max-md:max-w-md w-full relative overflow-x-hidden md:w-188 xl:w-full mx-auto pt-10">
+        <div className="max-w-378 xl:px-10 max-md:max-w-md w-full relative overflow-x-hidden md:w-188 xl:w-full mx-auto pt-16">
           <div className="w-full md:w-120 space-y-2">
             <Typography variant={"h2"}>Хората зад DocNow</Typography>
             <Typography variant={"p"}>

@@ -4,7 +4,7 @@ import ourMissionImg from "../../../assets/images/about-us/out-mission/our-missi
 export const OurMission = () => {
   return (
     <div className="max-md:px-6">
-      <div className="max-w-378 xl:px-40 max-md:max-w-md w-full relative overflow-x-hidden md:w-188 xl:w-full mx-auto py-10">
+      <div className="max-w-378 xl:px-40 max-md:max-w-md w-full relative overflow-x-hidden md:w-188 xl:w-full mx-auto pt-10">
         <svg
           width="800"
           height="538"
@@ -20,7 +20,7 @@ export const OurMission = () => {
           />
         </svg>
         <Typography variant={"h2"} className="text-left md:text-center">
-          Нашите мисия и визия
+          Нашата мисия и визия
         </Typography>
         <div className="my-16 flex items-center flex-row max-md:flex-col gap-10 justify-between md:w-188 xl:w-full mx-auto">
           <div className="space-y-2.5">
