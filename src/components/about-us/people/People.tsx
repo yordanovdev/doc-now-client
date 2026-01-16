@@ -16,8 +16,7 @@ export const People = () => {
 
   return (
     <div className="overflow-x-hidden">
-      <div className="max-md:px-6">
-        <div className="max-w-378 xl:px-10 max-md:max-w-md w-full relative overflow-x-hidden md:w-188 xl:w-full mx-auto pt-16">
+        <div className="max-w-378 xl:px-10 px-4 max-md:max-w-md w-full relative overflow-x-hidden md:w-188 xl:w-full mx-auto pt-16">
           <div className="w-full md:w-120 space-y-2">
             <Typography variant={"h2"}>Хората зад DocNow</Typography>
             <Typography variant={"p"}>
@@ -29,8 +28,7 @@ export const People = () => {
             </Typography>
           </div>
         </div>
-      </div>
-      <div className="w-full  xl:mb-16 mt-10 md:mx-0 ">
+      <div className="w-full  xl:mt-16 mt-10 md:mx-0 ">
         <div className="w-full md:mx-auto xl:w-full max-md:max-w-md md:overflow-x-hidden group relative">
           <div className="flex gap-3 md:gap-6 animate-scroll-left group-hover:animation-pause">
             {/* First set of images */}

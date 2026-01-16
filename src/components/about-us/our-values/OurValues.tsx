@@ -6,16 +6,15 @@ import icon4 from "../../../assets/images/about-us/our-values/icon4.svg";
 
 export const OurValues = () => {
   return (
-    <div className="py-10 max-md:px-6 xl:py-16">
-      <div className="max-w-378 xl:px-10 max-md:max-w-md w-full md:w-188 xl:w-full mx-auto ">
+      <div className="max-w-378 xl:px-10 px-4 py-10 xl:py-16 max-md:max-w-md w-full md:w-188 xl:w-full mx-auto ">
         <Typography variant={"h2"} className="text-left md:text-center mb-6">
           Нашите ценности
         </Typography>
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-6 w-full justify-items-stretch">
           <Value
             icon={icon1}
-            title="Комфорт и спокойствие"
-            description="Без чакане, без пътуване, без излишен стрес."
+            title="Човешко отношение"
+            description="Всеки пациент е различен и заслужава внимание, уважение и време."
           />
           <Value
             icon={icon2}
@@ -24,8 +23,8 @@ export const OurValues = () => {
           />
           <Value
             icon={icon3}
-            title="Професионализъм"
-            description="Проверени и лицензирани специалисти"
+            title="Прозрачност"
+            description="Ясна комуникация, коректност и честност във всяка услуга."
           />
           <Value
             icon={icon4}
@@ -34,7 +33,6 @@ export const OurValues = () => {
           />
         </div>
       </div>
-    </div>
   );
 };
 

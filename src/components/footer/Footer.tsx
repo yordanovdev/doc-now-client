@@ -4,9 +4,9 @@ import { Typography } from "../ui/typography"
 
 
 export const Footer = () => {
-    return <div className="px-4 relative md:px-6 xl:px-10 py-6 overflow-hidden max-w-378 max-md:max-w-md mx-auto">
-        <div className="max-w-378 max-md:max-w-md md:w-188 mb-20 xl:w-full mx-auto flex flex-col items-center max-md:items-start gap-8">
-            <Typography data-aos="fade-right" data-aos-duration="800" variant={"h1"} className="text-center max-md:text-left">
+    return <div className="px-4 relative md:px-6 xl:px-10 py-6 overflow-hidden max-md:max-w-md mx-auto">
+        <div className="max-w-378 max-md:max-w-md md:w-188 mb-20 xl:w-full mx-auto flex flex-col items-center gap-8">
+            <Typography data-aos="fade-right" data-aos-duration="800" variant={"h1"} className="text-center">
                 Нуждаете се от <br /> <span className=" border-2 max-md:border-none border-primary rounded-full px-6 max-md:px-0"> медицинска помощ </span> <br />
                 още днес?
             </Typography>
@@ -23,12 +23,12 @@ export const Footer = () => {
                 </Button>
             </div>
         </div>
-        <svg className="absolute -z-10 hidden md:block md:left-0 xl:left-20 md:scale-110 xl:scale-130 top-20" width="350" height="430" viewBox="0 0 289 390" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg className="absolute -z-10 hidden md:block md:left-0  md:scale-110 xl:scale-130 top-20" width="350" height="430" viewBox="0 0 289 390" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M-333.565 1.24529C-267.244 116.684 -93.3015 201.435 -11.933 206.192C25.9476 208.407 106.328 202.741 146.976 156.117C187.624 109.493 181.47 45.1665 138.802 24.4723C96.1342 3.77817 39.3206 31.7029 39.3206 104.257C39.3206 176.811 161.11 360.509 287.651 386.745" stroke="#E6FCF8" stroke-width="5" />
         </svg>
 
 
-        <div className="gap-6 xl:gap-8 flex items-center xl:flex-row flex-col justify-between">
+        <div className="max-w-378 mx-auto xl:px-10 gap-6 xl:gap-8 flex items-center xl:flex-row flex-col justify-between">
             <div className="flex items-center gap-6 xl:gap-8 flex-col xl:flex-row">
 
                 <img src={logo} alt="Logo" className='w-25.75 h-4.5' />

@@ -2,7 +2,7 @@ import { Typography } from "@/components/ui/typography";
 
 export const TrustAndSecurity = () => {
   return (
-    <div className="relative px-6 md:px-10 py-10">
+    <div className="relative md:px-10 py-10">
       <svg
         width="442"
         height="745"
@@ -18,7 +18,7 @@ export const TrustAndSecurity = () => {
         />
       </svg>
 
-      <div className="max-w-378 max-md:max-w-md w-full relative overflow-x-hidden md:w-188 xl:w-full mx-auto mt-10">
+      <div className="max-w-378 px-4 max-md:max-w-md w-full relative overflow-x-hidden md:w-188 xl:w-full mx-auto mt-10 xl:mt-16">
         <Typography variant={"h2"} className="text-left md:text-center">
           Доверие и сигурност
         </Typography>
