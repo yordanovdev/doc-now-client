@@ -5,7 +5,7 @@ import { Typography } from "../ui/typography"
 
 export const Footer = () => {
     return <div className="px-4 relative md:px-6 xl:px-10 py-6 overflow-hidden max-w-358 max-md:max-w-md mx-auto">
-        <div className="max-w-358 max-md:max-w-md md:w-188 mb-10 xl:w-full mx-auto flex flex-col items-center max-md:items-start gap-8">
+        <div className="max-w-358 max-md:max-w-md md:w-188 mb-20 xl:w-full mx-auto flex flex-col items-center max-md:items-start gap-8">
             <Typography data-aos="fade-right" data-aos-duration="800" variant={"h1"} className="text-center max-md:text-left">
                 Нуждаете се от <br /> <span className=" border-2 max-md:border-none border-primary rounded-full px-6 max-md:px-0"> медицинска помощ </span> <br />
                 още днес?
