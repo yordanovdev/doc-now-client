@@ -43,7 +43,7 @@ export const Header = () => {
                 {/* Images Section - Show on md and above */}
                 <div className="hidden md:flex flex-col gap-10 items-center xl:items-end">
                     <div className="flex gap-4 max-xl:justify-between">
-                        <img id="doctor1" src={headerDoctor1} alt="Doctor" className="max-xl:hidden max-2xl:w-150" data-aos="zoom-in" data-aos-duration="800" />
+                        <img id="doctor1" src={headerDoctor1} alt="Doctor" className="max-xl:hidden" data-aos="zoom-in" data-aos-duration="800" />
                         <img src={headerDoctor1Full} alt="Doctor" className="xl:hidden" data-aos="zoom-in" data-aos-duration="800" />
                         <img src={headerDoctor2} alt="Doctor" className="self-end" data-aos-anchor="#doctor1" data-aos-once="true" data-aos="zoom-in" data-aos-duration="800" />
                     </div>
