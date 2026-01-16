@@ -8,7 +8,7 @@ export const Steps = () => {
         </svg>
 
         <Typography variant={"h2"} as={"h2"} className="text-center mb-10">Лесни стъпки за запазване на час</Typography>
-        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-8 place-items-center xl:place-items-stretch md:w-fit md:mx-auto xl:w-auto xl:max-w-358">
+        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-8 place-items-center xl:place-items-stretch md:w-188 md:mx-auto xl:w-auto xl:max-w-358">
             <Step
                 number={1}
                 title={"Изберете услуга"}

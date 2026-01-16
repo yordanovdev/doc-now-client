@@ -6,8 +6,8 @@ import icon4 from "../../../assets/images/about-us/our-values/icon4.svg";
 
 export const OurValues = () => {
   return (
-    <div className="py-10 px-6 md:px-16 xl:py-16">
-      <div className="max-w-358 max-md:max-w-md w-full md:w-188 xl:w-full mx-auto ">
+    <div className="py-10 max-md:px-6 xl:py-16">
+      <div className="max-w-378 xl:px-10 max-md:max-w-md w-full md:w-188 xl:w-full mx-auto ">
         <Typography variant={"h2"} className="text-left md:text-center mb-6">
           Нашите ценности
         </Typography>

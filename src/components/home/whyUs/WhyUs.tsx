@@ -6,8 +6,8 @@ import icon4 from "../../../assets/images/home/why-us/icon4.svg"
 
 
 export const WhyUs = () => {
-    return <div className="bg-light-green py-20 px-4 md:px-6 xl:px-10 w-full">
-        <div className="max-w-358 max-md:max-w-md mx-auto">
+    return <div className="bg-light-green py-20 max-md:px-4  w-full">
+        <div className="max-w-378 xl:px-10 max-md:max-w-md mx-auto">
             <div className="flex flex-col xl:flex-row xl:items-center gap-6 md:w-188 md:mx-auto xl:w-full">
                 <Typography data-aos="fade-right" data-aos-duration="800" variant="h2" as="h2" className="text-center md:text-left sm:text-left mb-4 md:mb-0 xl:w-85 shrink-0">
                     Защо да изберете медицинска грижа у дома?

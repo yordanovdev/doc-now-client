@@ -5,7 +5,7 @@ import headerAboutUsImage from "../../../assets/images/about-us/header-img.png";
 export const AboutUsHeader = () => {
   return (
     <div className="relative overflow-hidden">
-      <header className="max-w-358 md:w-188 xl:w-full max-md:max-w-md relative mx-auto px-4 md:px-6 xl:px-10 pb-10 pt-0 md:pt-4 xl:pt-8 xl:pb-16 flex items-center gap-16 flex-col xl:flex-row justify-between">
+      <header className="max-w-378 md:w-188 xl:w-full max-md:max-w-md relative mx-auto px-4 md:px-6 xl:px-10 pb-10 pt-0 md:pt-4 xl:pt-8 xl:pb-16 flex items-center gap-16 flex-col xl:flex-row justify-between">
         {/* Xl svg */}
         <svg
           width="954"
@@ -41,7 +41,7 @@ export const AboutUsHeader = () => {
         <div
           data-aos="fade-right"
           data-aos-duration="800"
-          className="w-144.5 max-xl:w-full max-xl:space-y-3 flex flex-col items-start md:items-center xl:items-start"
+          className="w-150 max-xl:w-full max-xl:space-y-3 flex flex-col items-start md:items-center xl:items-start xl:shrink-0"
         >
           <Typography
             variant={"h1"}
@@ -66,7 +66,7 @@ export const AboutUsHeader = () => {
           src={headerAboutUsImage}
           data-aos="zoom-in"
           data-aos-duration="800"
-          className="rounded-3xl w-full h-76.5 md:w-150 md:h-134 xl:w-144.5 xl:h-[433.5px] object-cover"
+          className="rounded-3xl w-full h-76.5 md:w-150 md:h-134 xl:w-full xl:h-auto xl:aspect-578/433 object-cover"
         />
       </header>
     </div>

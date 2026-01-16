@@ -11,8 +11,8 @@ export const Home = () => {
     <div>
       <NavBar />
       <Header />
-      <div className="px-4 md:px-6 xl:px-10 max-md:max-w-md max-md:mx-auto overflow-x-hidden">
-        <div className="max-w-358 mx-auto relative">
+      <div className="max-md:px-4 max-md:max-w-md max-md:mx-auto overflow-x-hidden">
+        <div className="max-w-378 xl:px-10 mx-auto relative">
           <Steps />
           <Services />
         </div>

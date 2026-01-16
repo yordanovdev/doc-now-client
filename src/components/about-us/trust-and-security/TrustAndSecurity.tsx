@@ -18,13 +18,13 @@ export const TrustAndSecurity = () => {
         />
       </svg>
 
-      <div className="max-w-358 max-md:max-w-md w-full relative overflow-x-hidden md:w-188 xl:w-full mx-auto mt-10">
+      <div className="max-w-378 max-md:max-w-md w-full relative overflow-x-hidden md:w-188 xl:w-full mx-auto mt-10">
         <Typography variant={"h2"} className="text-left md:text-center">
           Доверие и сигурност
         </Typography>
         <Typography
           variant={"p"}
-          className="mb-8 md:mb-10 mt-2 w-full md:w-112.5 text-left md:text-center md:mx-auto"
+          className="mb-8 md:mb-16 mt-2 w-full md:w-112.5 text-left md:text-center md:mx-auto"
         >
           Здравето и личните данни са изключително чувствителни. Затова работим
           при строги стандарти за сигурност, конфиденциалност и медицинска

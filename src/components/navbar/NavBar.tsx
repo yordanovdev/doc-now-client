@@ -58,7 +58,7 @@ export const NavBar = () => {
   return (
     <nav className="xl:border-b z-10 bg-white">
       <NavBarMobile open={navBarMobileOpen} onClose={onCloseNavBarMobile} />
-      <div className="flex items-center justify-between max-w-358 max-md:max-w-md mx-auto px-4 md:px-6 xl:px-10 py-4 xl:py-3">
+      <div className="flex items-center justify-between max-w-378 max-md:max-w-md mx-auto px-4 md:px-6 xl:px-10 py-4 xl:py-3">
         <div className="flex justify-start xl:flex-1 md:mr-6 xl:mr-0">
           <img src={logo} alt="Logo" className="w-25.75 h-4.5" />
         </div>

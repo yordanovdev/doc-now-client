@@ -8,7 +8,7 @@ export const Services = () => {
         <div className="">
             <Typography variant={"h2"} as={"h2"} className="text-center mb-10">Медицински Услуги до вашата врата</Typography>
 
-            <div className="grid grid-cols-2 md:grid-cols-3 md:w-188 gap-6 max-w-358 mx-auto justify-items-center xl:w-auto xl:max-w-none xl:mx-0 xl:flex xl:justify-between">
+            <div className="grid grid-cols-2 md:grid-cols-3 md:w-188 gap-6 max-w-378 mx-auto justify-items-center xl:w-auto xl:max-w-none xl:mx-0 xl:flex xl:justify-between">
                 <Service
                     image="/images/services/image1.png"
                     title="Доктор"

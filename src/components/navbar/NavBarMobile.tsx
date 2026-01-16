@@ -23,7 +23,7 @@ export const NavBarMobile = (props: NavBarMobileProps) => {
           className="fixed inset-0 bg-white h-dvh z-20"
         >
           <div className="h-full">
-            <div className="flex items-center justify-between max-w-358 max-md:max-w-md mx-auto px-4 md:px-6 xl:px-10 py-5 xl:py-3">
+            <div className="flex items-center justify-between max-w-378 max-md:max-w-md mx-auto px-4 md:px-6 xl:px-10 py-5 xl:py-3">
               <div className="flex justify-start xl:flex-1 md:mr-6 xl:mr-0">
                 <img src={logo} alt="Logo" className="w-25.75 h-4.5" />
               </div>
