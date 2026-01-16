@@ -30,8 +30,8 @@ export const People = () => {
           </div>
         </div>
       </div>
-      <div className="w-full mb-10 md:mb-16 mt-10 md:mx-0 md:px-10">
-        <div className="max-w-378 w-full md:w-188 md:mx-auto xl:w-full  max-md:max-w-md md:overflow-x-hidden group relative">
+      <div className="w-full  xl:mb-16 mt-10 md:mx-0 ">
+        <div className="w-full md:mx-auto xl:w-full max-md:max-w-md md:overflow-x-hidden group relative">
           <div className="flex gap-3 md:gap-6 animate-scroll-left group-hover:animation-pause">
             {/* First set of images */}
             {images.map((image, index) => (

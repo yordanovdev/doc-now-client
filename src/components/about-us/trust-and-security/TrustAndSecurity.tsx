@@ -24,7 +24,7 @@ export const TrustAndSecurity = () => {
         </Typography>
         <Typography
           variant={"p"}
-          className="mb-8 md:mb-16 mt-2 w-full md:w-112.5 text-left md:text-center md:mx-auto"
+          className="mb-8 xl:mb-16 mt-2 w-full md:w-112.5 text-left md:text-center md:mx-auto"
         >
           Здравето и личните данни са изключително чувствителни. Затова работим
           при строги стандарти за сигурност, конфиденциалност и медицинска
