@@ -56,7 +56,7 @@ type ServiceProps = {
 const Service = (props: ServiceProps) => {
     return <div className="w-full h-114.25 sm:h-fit ">
         {props.image && <img src={props.image} alt={props.title} className="rounded-3xl w-full h-61.5 md:h-auto mb-6 object-cover object-[25%_25%] aspect-2/3" />}
-        <Typography variant="h4" as="h4" className="mb-2.5 w-full">{props.title}</Typography>
+        <Typography variant="h4" as="h4" className="mb-4 w-full">{props.title}</Typography>
         {props.description && <Typography variant="sm" as={"p"} className="mb-6">{props.description}</Typography>}
         <Button className="" variant={"outlined"}>
             <Typography variant="link" as="p" className="hover:text-inherit">{props.btnText}</Typography>
