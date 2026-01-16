@@ -46,7 +46,7 @@ type ItemProps = {
 }
 const Item = (props: ItemProps) => {
     return (
-    <div className="flex xl:items-center justify-center items-start flex-col gap-2">
+    <div className="flex xl:items-center justify-center items-start flex-col gap-2 xl:max-w-62 xl:justify-between">
             <img src={props.icon} alt={props.title} className="" />
             <Typography variant={"h4"} className="text-center">{props.title}</Typography>
             <Typography variant={"sm"} as={"p"} className="text-center">{props.description}</Typography>
